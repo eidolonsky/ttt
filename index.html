@@ -6,24 +6,24 @@
   <link rel="stylesheet" href="/screen.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway|Shadows+Into+Light" rel="stylesheet">
 </head>
-<body>
+<body onload="startGame();">
   <div class="box">
     <h1>Tic Tac Toe</h1>
     <table>
       <tr>
-        <td class="square">X</td>
-        <td class="square">O</td>
-        <td class="square">O</td>
+        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" onclick="nextMove(this)"></td>
       </tr>
       <tr>
-        <td class="square">X</td>
-        <td class="square">X</td>
-        <td class="square">O</td>
+        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" onclick="nextMove(this)"></td>
       </tr>    
       <tr>
-        <td class="square">O</td>
-        <td class="square">O</td>
-        <td class="square">O</td>
+        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" onclick="nextMove(this)"></td>
       </tr>
     </table>
     <div id="message">Message here</div>
