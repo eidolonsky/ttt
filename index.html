@@ -11,22 +11,23 @@
     <h1>Tic Tac Toe</h1>
     <table>
       <tr>
-        <td class="square" onclick="nextMove(this)"></td>
-        <td class="square" onclick="nextMove(this)"></td>
-        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" id="1" onclick="nextMove(this)"></td>
+        <td class="square" id="2" onclick="nextMove(this)"></td>
+        <td class="square" id="3" onclick="nextMove(this)"></td>
       </tr>
       <tr>
-        <td class="square" onclick="nextMove(this)"></td>
-        <td class="square" onclick="nextMove(this)"></td>
-        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" id="4" onclick="nextMove(this)"></td>
+        <td class="square" id="5" onclick="nextMove(this)"></td>
+        <td class="square" id="6" onclick="nextMove(this)"></td>
       </tr>    
       <tr>
-        <td class="square" onclick="nextMove(this)"></td>
-        <td class="square" onclick="nextMove(this)"></td>
-        <td class="square" onclick="nextMove(this)"></td>
+        <td class="square" id="7" onclick="nextMove(this)"></td>
+        <td class="square" id="8" onclick="nextMove(this)"></td>
+        <td class="square" id="9" onclick="nextMove(this)"></td>
       </tr>
     </table>
-    <div id="message">Message here</div>
+    <div class="msg" id="msg">Message here</div>
+    <a href="javascript: startGame();" id="button">Play Again</a>
   </div>   
   <script src="script.js"></script>   
 </body>
